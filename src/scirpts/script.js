@@ -23,7 +23,6 @@ stars.forEach((star, idx) => {
             stars[i].children[0].src = "./public/images/star.svg";
         }
         rate.innerText = idx + 1;
-        console.log(rate);
         expressions.src = faces[idx];
     })
 })
