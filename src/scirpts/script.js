@@ -36,5 +36,5 @@ submitBtn.addEventListener("click", () => {
 ignoreBtn.addEventListener("click", () => {
     var isExit = confirm("You want to exit");
     if (isExit === true)
-        location.href = "https:\\www.google.com";
+        history.back();
 })
